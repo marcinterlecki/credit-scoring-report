@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Credit Scoring Report"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7a75b40b-89d3-423d-9ef8-d2624023fd9a"
+  }
+}

@@ -1,0 +1,3794 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.901.0 (24.07)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Information\",\"Decision\",\"Customer\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "information": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "information": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "info": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "fact": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "inf": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "knowledge": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "report": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "information.author": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "ConceptualProperty": "Author"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "author": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "writer": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "creator": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "journalist": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "novelist": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "poet": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "information.creation_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "ConceptualProperty": "Creation date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "creation date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "creation moment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "creation period": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "information.creation_date.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Creation date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "creation date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "information.creation_date.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Creation date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "creation day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "creation date day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "creation moment day": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "creation period day": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "information.creation_date.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Creation date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "creation month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "creation date month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "creation date mth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "creation mth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "creation moment month": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "creation period month": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "information.creation_date.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Creation date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "creation quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "creation date quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "creation date qtr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.846
+                    }
+                  },
+                  {
+                    "creation qtr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  },
+                  {
+                    "creation moment quarter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "creation period quarter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "information.creation_date.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Creation date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "creation year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "creation date year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "creation date yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "creation yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "creation moment year": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "creation period year": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "information.refresh_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "ConceptualProperty": "Refresh date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "refresh date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "refresh moment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "refresh period": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "information.refresh_date.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Refresh date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "refresh date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "information.refresh_date.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Refresh date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "refresh day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "refresh date day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "refresh moment day": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "refresh period day": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "information.refresh_date.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Refresh date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "refresh month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "refresh date month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "refresh date mth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "refresh mth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "refresh moment month": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "refresh period month": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "information.refresh_date.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Refresh date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "refresh quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "refresh date quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "refresh date qtr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.846
+                    }
+                  },
+                  {
+                    "refresh qtr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  },
+                  {
+                    "refresh moment quarter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "refresh period quarter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "information.refresh_date.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Refresh date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "refresh year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "refresh date year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "refresh date yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "refresh yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "refresh moment year": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "refresh period year": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "information.title": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Information",
+                    "ConceptualProperty": "Title"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "title": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "designation": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "award": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "call": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "heading": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "label": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "main_query__can_be_used_after_em_fix_the_source_table.cust_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Main query - can be used after EM fix the source table",
+                    "ConceptualProperty": "CUST_ID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Customer ID": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "main_query__can_be_used_after_em_fix_the_source_table.dev_asset_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Main query - can be used after EM fix the source table",
+                    "ConceptualProperty": "DEV_ASSET_NAME"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Device code": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "main_query__can_be_used_after_em_fix_the_source_table.dev_serial_number": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Main query - can be used after EM fix the source table",
+                    "ConceptualProperty": "DEV_SERIAL_NUMBER"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Device Serial Code": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "main_query__can_be_used_after_em_fix_the_source_table.ord_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Main query - can be used after EM fix the source table",
+                    "ConceptualProperty": "ORD_DATE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Order Date": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "main_query__can_be_used_after_em_fix_the_source_table.ord_ext_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Main query - can be used after EM fix the source table",
+                    "ConceptualProperty": "ORD_EXT_ID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Order Code": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "main_query__can_be_used_after_em_fix_the_source_table.ord_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Main query - can be used after EM fix the source table",
+                    "ConceptualProperty": "ORD_ID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Order Number": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "main_query__can_be_used_after_em_fix_the_source_table.ord_update_time": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Main query - can be used after EM fix the source table",
+                    "ConceptualProperty": "ORD_UPDATE_TIME"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Order Update Date": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "information_creation_date_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.creation_date.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "information.creation_date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information.creation_date": {
+                    "Target": {
+                      "Entity": "information.creation_date"
+                    }
+                  },
+                  "information.creation_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "information.creation_date.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_creation_date_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.creation_date.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "information.creation_date.variation.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information.creation_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "information.creation_date.variation.date_hierarchy"
+                    }
+                  },
+                  "information.creation_date.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "information.creation_date.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_creation_date_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.creation_date.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "information.creation_date.variation.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information.creation_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "information.creation_date.variation.date_hierarchy"
+                    }
+                  },
+                  "information.creation_date.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "information.creation_date.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_creation_date_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.creation_date.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "information.creation_date.variation.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information.creation_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "information.creation_date.variation.date_hierarchy"
+                    }
+                  },
+                  "information.creation_date.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "information.creation_date.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_creation_date_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.creation_date.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "information.creation_date.variation.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information.creation_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "information.creation_date.variation.date_hierarchy"
+                    }
+                  },
+                  "information.creation_date.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "information.creation_date.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_has_author": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.author"
+                      },
+                      "Subject": {
+                        "Role": "information"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information": {
+                    "Target": {
+                      "Entity": "information"
+                    }
+                  },
+                  "information.author": {
+                    "Target": {
+                      "Entity": "information.author"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_has_creation_date": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.creation_date"
+                      },
+                      "Subject": {
+                        "Role": "information"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information": {
+                    "Target": {
+                      "Entity": "information"
+                    }
+                  },
+                  "information.creation_date": {
+                    "Target": {
+                      "Entity": "information.creation_date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_has_refresh_date": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.refresh_date"
+                      },
+                      "Subject": {
+                        "Role": "information"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information": {
+                    "Target": {
+                      "Entity": "information"
+                    }
+                  },
+                  "information.refresh_date": {
+                    "Target": {
+                      "Entity": "information.refresh_date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_has_title": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.title"
+                      },
+                      "Subject": {
+                        "Role": "information"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information": {
+                    "Target": {
+                      "Entity": "information"
+                    }
+                  },
+                  "information.title": {
+                    "Target": {
+                      "Entity": "information.title"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_is_refreshed_on_refresh_date": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "information"
+                      },
+                      "Verbs": [
+                        {
+                          "refresh": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.9
+                  }
+                ],
+                "Roles": {
+                  "information": {
+                    "Target": {
+                      "Entity": "information"
+                    }
+                  },
+                  "information.refresh_date": {
+                    "Target": {
+                      "Entity": "information.refresh_date"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "When": {
+                    "Role": "information.refresh_date"
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_refresh_date_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.refresh_date.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "information.refresh_date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information.refresh_date": {
+                    "Target": {
+                      "Entity": "information.refresh_date"
+                    }
+                  },
+                  "information.refresh_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "information.refresh_date.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_refresh_date_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.refresh_date.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "information.refresh_date.variation.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information.refresh_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "information.refresh_date.variation.date_hierarchy"
+                    }
+                  },
+                  "information.refresh_date.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "information.refresh_date.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_refresh_date_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.refresh_date.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "information.refresh_date.variation.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information.refresh_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "information.refresh_date.variation.date_hierarchy"
+                    }
+                  },
+                  "information.refresh_date.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "information.refresh_date.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_refresh_date_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.refresh_date.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "information.refresh_date.variation.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information.refresh_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "information.refresh_date.variation.date_hierarchy"
+                    }
+                  },
+                  "information.refresh_date.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "information.refresh_date.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "information_refresh_date_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "Information"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "information.refresh_date.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "information.refresh_date.variation.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "information.refresh_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "information.refresh_date.variation.date_hierarchy"
+                    }
+                  },
+                  "information.refresh_date.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "information.refresh_date.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "1"
+          }
+        ],
+        "folder": "Calendar"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "36a0c079-6cd3-45c3-8060-94ce81a05c7f",
+        "fromColumn": "Creation date",
+        "fromTable": "Information",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_d5a462b8-3cde-49c7-8e13-2430817b36a5"
+      },
+      {
+        "name": "a660747b-bafb-4208-8d55-63a5336db910",
+        "fromColumn": "Refresh date",
+        "fromTable": "Information",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_bb2dcd7c-c0d7-436c-91a0-d60ac307bef4"
+      },
+      {
+        "name": "8ed2020e-992c-41c1-8584-75ec96d74b46",
+        "fromColumn": "proc_time",
+        "fromTable": "Decision",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_68486787-7f6e-4c04-a870-d3c15e9a02a8"
+      },
+      {
+        "name": "f767ade7-a481-41bc-b067-481fbe0ebba6",
+        "fromColumn": "ID",
+        "fromTable": "Decision",
+        "toColumn": "ID",
+        "toTable": "Customer"
+      }
+    ],
+    "roles": [
+      {
+        "name": "HQ",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "6d123dffc7d24d28bed082aeeafd59b3"
+          }
+        ],
+        "modelPermission": "read"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "DateTableTemplate_c2ca8ee5-ccbe-43da-852f-1fe03528b98f",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "cd42bbf9-d467-4ee5-8291-fb37740c6b83",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "726f126f-28aa-4c93-a454-26b8271ab70a",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "ca9bfff6-bd56-4bf1-afe1-fb301c89061c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "f16f529e-2cc3-4623-8b21-de310310cdc6",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "0ee4e519-0db7-4d02-a701-ca62caacd256",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "154bd997-ff2c-4e15-a0d4-0858e1996ad7",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "42494af3-4cf6-4ddb-8b57-ae03f8bb94c2",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "b125c913-68b8-496d-96e2-52a8dd43f1da",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "74409637-4d41-4e30-bda9-118a389eede7",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "e9814371-88ce-4a24-8682-21e1233c72d7",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "506a98ab-2043-4d96-b9ce-318785b8486b",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "04dd2557-712b-4da1-ae59-91dfa0da37a7"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "43cfaecf-eeb0-421b-90ad-7875a6c90e25",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_c2ca8ee5-ccbe-43da-852f-1fe03528b98f-bf7c2219-023c-45dd-86cf-e37aacd77986",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Information",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Author",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "22b7dd61-fbf4-4af4-be02-f62638a27573",
+            "sourceColumn": "Author",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Creation date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "e257c6b3-470c-485f-9efc-a2aa3fbd2948",
+            "sourceColumn": "Creation date",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_d5a462b8-3cde-49c7-8e13-2430817b36a5"
+                },
+                "isDefault": true,
+                "relationship": "36a0c079-6cd3-45c3-8060-94ce81a05c7f"
+              }
+            ]
+          },
+          {
+            "name": "Title",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "79281bc5-c705-4761-81b5-481541c46b6a",
+            "sourceColumn": "Title",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Refresh date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-mm-dd hh:nn:ss",
+            "lineageTag": "497b7bce-ff9f-44f4-9b59-f1b37bc183ab",
+            "sourceColumn": "Refresh date",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_bb2dcd7c-c0d7-436c-91a0-d60ac307bef4"
+                },
+                "isDefault": true,
+                "relationship": "a660747b-bafb-4208-8d55-63a5336db910"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "868accd4-7fa8-4e18-8082-0df39c551c21",
+        "partitions": [
+          {
+            "name": "Information-1ba43104-a58f-4a44-8c70-fd03842666b8",
+            "mode": "import",
+            "queryGroup": "Calendar",
+            "source": {
+              "expression": [
+                "let",
+                "    Źródło = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45W8k0sSs7MUwhJLcpJTc7OVNJRMjIwMtY1MNM1MAJy/DJT81NSk4oS81IVqhJzD28uz0zNy0xUio0FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Author = _t, #\"Creation date\" = _t, Title = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Źródło,{{\"Creation date\", type date}}),",
+                "    #\"Dodano kolumnę niestandardową\" = Table.AddColumn(#\"Changed Type\", \"Refresh date\", each DateTimeZone.SwitchZone(DateTimeZone.LocalNow(),2,0)),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Dodano kolumnę niestandardową\",{{\"Refresh date\", type datetime}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_d5a462b8-3cde-49c7-8e13-2430817b36a5",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "1d5065da-9217-4370-b74d-911e9ab6ea4c",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "2cf092c3-e679-40d9-a3a6-7556a6c77c83",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "aadf8fca-86b7-45c9-9f7e-7b52ccffe909",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "35bc1fb0-1ba8-490f-8c7f-7b8e9b264e9e",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "0b3bdfcd-88c4-4f98-a6a4-b90ec1ccef67",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "4780e402-4bc0-4ac0-8899-e38b2ca889f7",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "86816bf8-c82d-4b26-be3f-4d2149ae977e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "07fbeee2-4f1f-416b-9dae-7c072e3973b7",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "39a1223c-8a4e-492c-bb11-da87dbcea74c",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "392558f9-7dad-4bc7-a918-bebe3dad4b7a",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "3a3f25c6-f5d2-407d-8f6a-ed6649b2d852",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "d55c6735-1323-4129-9b77-8e024f0ebe22"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "3aa57dc7-0d24-4678-9153-6c79d3ad5148",
+        "partitions": [
+          {
+            "name": "LocalDateTable_d5a462b8-3cde-49c7-8e13-2430817b36a5-aefd46a7-91df-4d10-b956-045d38010c6d",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Information'[Creation date])), 1, 1), Date(Year(MAX('Information'[Creation date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "LocalDateTable_bb2dcd7c-c0d7-436c-91a0-d60ac307bef4",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "970e57db-0c02-4eb3-8f37-34c7fdf812ba",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "d45d87a5-1ddf-4f76-a473-1c995f0544bc",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "03062225-3e36-4c40-898a-8a45e5d7a14f",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "984ee1f4-a407-43e9-9bea-fafc27f4e18d",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "7144434e-6e35-4c91-a34b-9a4a2dd89e9c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "9ee071f2-5389-47d9-bbdf-8f9f6e9e7ad2",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "25f3db58-f29a-495c-bf52-e8739ecc88eb",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "8030a035-0a23-40bc-8cde-6c48c28bc593",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "4c24c9b3-8137-4a84-aa82-51d400b12c00",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "5acb63fb-1c6f-42c5-a573-4352f03af2ed",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "43704339-8bf0-4511-b0c8-8a8ea9332f37",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "5c80ce4d-880e-42a6-a0e6-168275a065bd"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "a12ca43b-bcd2-4bbf-a8ae-e3512615a245",
+        "partitions": [
+          {
+            "name": "LocalDateTable_bb2dcd7c-c0d7-436c-91a0-d60ac307bef4-13496adb-a6b4-4165-97d9-aff86046556d",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Information'[Refresh date])), 1, 1), Date(Year(MAX('Information'[Refresh date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "Decision",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "proc_time",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-mm-dd hh:nn:ss",
+            "lineageTag": "9434dda5-625a-442c-8424-cd438bb73fc3",
+            "sourceColumn": "proc_time",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Odmiana",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_68486787-7f6e-4c04-a870-d3c15e9a02a8"
+                },
+                "isDefault": true,
+                "relationship": "8ed2020e-992c-41c1-8584-75ec96d74b46"
+              }
+            ]
+          },
+          {
+            "name": "ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "01002188-7153-4e2e-9215-f2cf042f1152",
+            "sourceColumn": "ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Outstanding_Debt",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b7a0811b-9871-4d09-8018-8a0dc2d8e7f9",
+            "sourceColumn": "Outstanding_Debt",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Credit_Mix",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a91a7acf-94d0-4d18-8f8f-2010169f8b0e",
+            "sourceColumn": "Credit_Mix",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Num_Credit_Card",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "82361fcc-487c-4564-a346-833bdeb97b68",
+            "sourceColumn": "Num_Credit_Card",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Interest_Rate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "805fa0f2-a4eb-4cfa-92f9-6ec01968384a",
+            "sourceColumn": "Interest_Rate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Score",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "11512ce5-3a3a-49a1-acbf-03fd86474814",
+            "sourceColumn": "Score",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Procent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2ce821ca-c848-4af8-a843-f49d9fc2e4a7",
+            "sourceColumn": "Procent",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6e75646c-9732-4b2c-86e8-2e0058c86d8c",
+            "sourceColumn": "Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "78fdb3c3-d483-4f69-8637-53f2e2754af5",
+            "sourceColumn": "Age",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Occupation",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "71ca8a3b-a5ba-4f4f-ae42-01b9158d0c60",
+            "sourceColumn": "Occupation",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Annual_Income",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              },
+              {
+                "property": "FormatString"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "12c56e5e-b59f-4544-aca1-5fdb70e92b71",
+            "sourceColumn": "Annual_Income",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Monthly_Inhand_Salary",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "36b41cc5-1c92-4bef-8b68-58ecafb75d99",
+            "sourceColumn": "Monthly_Inhand_Salary",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Num_Bank_Accounts",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3cf4101d-50ba-4758-bcdf-a51276f23edc",
+            "sourceColumn": "Num_Bank_Accounts",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Num_Credit_Card.1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2a8c1e6b-1adb-4f39-aad5-464774be2b02",
+            "sourceColumn": "Num_Credit_Card.1",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Interest_Rate.1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "39e350a7-1bea-41f3-a345-ed86b41c3be0",
+            "sourceColumn": "Interest_Rate.1",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Num_of_Loan",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "05741619-a339-48be-9e2d-cf7d0cb8296d",
+            "sourceColumn": "Num_of_Loan",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Delay_from_due_date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2a821edf-ba37-43cb-a2ee-e9117e4a53ad",
+            "sourceColumn": "Delay_from_due_date",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Num_of_Delayed_Payment",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "98a48db3-f04c-41b5-90e6-fcd3fdde0682",
+            "sourceColumn": "Num_of_Delayed_Payment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Changed_Credit_Limit",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cf0441b9-93d5-42a6-bfe0-b21f8d54811f",
+            "sourceColumn": "Changed_Credit_Limit",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Num_Credit_Inquiries",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "0",
+            "lineageTag": "f0858f63-7d47-4daa-901c-348b48868a29",
+            "sourceColumn": "Num_Credit_Inquiries",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Credit_Mix.1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aa9db48b-dd61-4d79-903f-03f3c00afca9",
+            "sourceColumn": "Credit_Mix.1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Credit_Utilization_Ratio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c306d946-c113-4b18-ae95-6fcec965077c",
+            "sourceColumn": "Credit_Utilization_Ratio",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Credit_History_Age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "80a3bb3d-0d29-4a47-9eaa-b93da2839617",
+            "sourceColumn": "Credit_History_Age",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Payment_of_Min_Amount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "88cf98ff-529c-4413-a039-abfe40082c57",
+            "sourceColumn": "Payment_of_Min_Amount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Total_EMI_per_month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-GB\"}"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\"£\"#,0.###############;-\"£\"#,0.###############;\"£\"#,0.###############",
+            "lineageTag": "feaa5229-56ae-4197-bc7b-53eb2c2fd1d2",
+            "sourceColumn": "Total_EMI_per_month",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Amount_invested_monthly",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "49fe3a16-7f9a-4edc-9bd9-4b52e14aa668",
+            "sourceColumn": "Amount_invested_monthly",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Payment_Behaviour",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "556a8f29-ca10-4aa0-bb1e-43ff93958232",
+            "sourceColumn": "Payment_Behaviour",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Monthly_Balance",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3702bf8b-1b22-45c0-88b7-1431d9f0b461",
+            "sourceColumn": "Monthly_Balance",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Decyzja",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "41f54859-c9ec-4310-abc1-ec1a03127a7a",
+            "sourceColumn": "Decyzja",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Decyzja_tekst",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "644defb8-6d61-48fa-a448-3dd1c754c66d",
+            "sourceColumn": "Decyzja_tekst",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Procent — kopia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "0.0%;-0.0%;0.0%",
+            "lineageTag": "eb77837c-a3d7-40c4-b221-c9269fcc1955",
+            "sourceColumn": "Procent — kopia",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Procent — kopia.1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bc764710-585d-4aa4-9e67-1ae84fd796f6",
+            "sourceColumn": "Procent — kopia.1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Niestandardowe",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d0cd36f7-a5c7-46b0-b9e6-71510482bd42",
+            "sourceColumn": "Niestandardowe",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "cd9dfb90-6e31-4950-8ceb-0c6c2ada02d4",
+        "measures": [
+          {
+            "name": "% odrzuconych",
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": [
+              "",
+              "VAR TOTAL = COUNT(Decision[Decyzja])",
+              "VAR ODRZUCONE = CALCULATE(COUNT(Decision[Decyzja]), FILTER(Decision, Decision[Decyzja] = 0))",
+              "RETURN",
+              "DIVIDE(ODRZUCONE, TOTAL)"
+            ],
+            "formatString": "#,0.000%;-#,0.000%;#,0.000%",
+            "lineageTag": "15be574f-6629-41e7-b3be-b190eb707956"
+          },
+          {
+            "name": "% Otrzymanych",
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": "1 - [% odrzuconych]",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "d0ff2012-393d-47e7-b79d-7536a3d78a17"
+          },
+          {
+            "name": "Średnia krocząca: Decyzja",
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": [
+              "",
+              "IF(",
+              "\tISFILTERED('Decision'[proc_time]),",
+              "\tERROR(\"Szybkie miary analizy czasowej mogą być grupowane i filtrowane tylko w hierarchii dat dostarczonej przez usługę Power BI lub podstawowej kolumnie dat.\"),",
+              "\tVAR __LAST_DATE = LASTDATE('Decision'[proc_time].[Date])",
+              "\tRETURN",
+              "\t\tAVERAGEX(",
+              "\t\t\tDATESBETWEEN(",
+              "\t\t\t\t'Decision'[proc_time].[Date],",
+              "\t\t\t\tDATEADD(__LAST_DATE, -1, DAY),",
+              "\t\t\t\tDATEADD(__LAST_DATE, 1, DAY)",
+              "\t\t\t),",
+              "\t\t\tCALCULATE(SUM('Decision'[Decyzja]))",
+              "\t\t)",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "RollingAverage",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "f780cd49-a2ab-4e6e-bb4a-dc21d088743b"
+          },
+          {
+            "name": "Średnia krocząca: Decyzja 2",
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": [
+              "",
+              "IF(",
+              "\tISFILTERED('Decision'[proc_time]),",
+              "\tERROR(\"Szybkie miary analizy czasowej mogą być grupowane i filtrowane tylko w hierarchii dat dostarczonej przez usługę Power BI lub podstawowej kolumnie dat.\"),",
+              "\tVAR __LAST_DATE = LASTDATE('Decision'[proc_time].[Date])",
+              "\tRETURN",
+              "\t\tAVERAGEX(",
+              "\t\t\tDATESBETWEEN(",
+              "\t\t\t\t'Decision'[proc_time].[Date],",
+              "\t\t\t\tDATEADD(__LAST_DATE, -1, DAY),",
+              "\t\t\t\tDATEADD(__LAST_DATE, 1, DAY)",
+              "\t\t\t),",
+              "\t\t\tCALCULATE(SUM('Decision'[Decyzja]))",
+              "\t\t)",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "RollingAverage",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "0de16e02-9846-4344-89dd-dec276083952"
+          },
+          {
+            "name": "liczba wnisokow",
+            "expression": "COUNTROWS(Decision)",
+            "formatString": "0",
+            "lineageTag": "542e6d44-369b-4746-9e95-37413bf0a946"
+          },
+          {
+            "name": "Średnia miary liczba wnisokow na kategorię proc_time",
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": [
+              "",
+              "AVERAGEX(",
+              "\tKEEPFILTERS(VALUES('Decision'[proc_time])),",
+              "\tCALCULATE([liczba wnisokow])",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "AveragePerCategory",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "9f1d1c6e-9bef-495b-8363-9ffb17509902"
+          },
+          {
+            "name": "ŚredniaWnioskówNaGodzinę",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    [liczba wnisokow],",
+              "    COUNTROWS(DISTINCT(Decision[proc_time].[Date]))",
+              ")",
+              ""
+            ],
+            "lineageTag": "4739968e-af85-4f19-9cd7-3897613a3d82"
+          },
+          {
+            "name": "liczba wnisokow MoM%",
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": [
+              "",
+              "IF(",
+              "\tISFILTERED('Decision'[proc_time]),",
+              "\tERROR(\"Time intelligence quick measures can only be grouped or filtered by the Power BI-provided date hierarchy or primary date column.\"),",
+              "\tVAR __PREV_MONTH =",
+              "\t\tCALCULATE(",
+              "\t\t\t[liczba wnisokow],",
+              "\t\t\tDATEADD('Decision'[proc_time].[Date], -1, DAY)",
+              "\t\t)",
+              "\tRETURN",
+              "\t\tDIVIDE([liczba wnisokow] - __PREV_MONTH, __PREV_MONTH)",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "MonthOverMonth",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0.000%;-0.000%;0.000%",
+            "lineageTag": "3f1c780b-07e4-4989-ab40-b351a7625a44"
+          },
+          {
+            "name": "timestamp",
+            "expression": "sum(Decision[proc_time])",
+            "formatString": "General Date",
+            "lineageTag": "0ab42066-d328-4988-ad7c-37a6367bf765"
+          },
+          {
+            "name": "YourMeasure",
+            "expression": [
+              "COUNTROWS(Decision)",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "a55e9e93-7528-4f48-b211-73615778d5d4"
+          },
+          {
+            "name": "Hour",
+            "expression": "HOUR([Timestamp])",
+            "formatString": "0",
+            "lineageTag": "69b138b9-c2f7-45f5-8769-cc65eca61d47"
+          },
+          {
+            "name": "HourlyChange",
+            "expression": [
+              "",
+              "VAR CurrentHour = [Hour]",
+              "RETURN",
+              "    [YourMeasure]",
+              "        - CALCULATE (",
+              "            [YourMeasure],",
+              "            FILTER ( ALL ( Decision ), [Hour] = CurrentHour - 1 )",
+              "        )",
+              "",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "6f21e725-5058-4919-8b23-28861c5f2c75"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Decision-edd39017-cc1b-4003-a459-9c42b0a4f4dd",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"rta-project-server.database.windows.net\", \"rta-project\", [Query=\"SELECT *#(lf)FROM Credit_Decision\"]),",
+                "    #\"Merged Queries\" = Table.NestedJoin(Source, {\"ID\"}, Customer, {\"ID\"}, \"Customer\", JoinKind.LeftOuter),",
+                "    #\"Expanded Customer\" = Table.ExpandTableColumn(#\"Merged Queries\", \"Customer\", {\"Name\", \"Age\", \"Occupation\", \"Annual_Income\", \"Monthly_Inhand_Salary\", \"Num_Bank_Accounts\", \"Num_Credit_Card\", \"Interest_Rate\", \"Num_of_Loan\", \"Delay_from_due_date\", \"Num_of_Delayed_Payment\", \"Changed_Credit_Limit\", \"Num_Credit_Inquiries\", \"Credit_Mix\", \"Credit_Utilization_Ratio\", \"Credit_History_Age\", \"Payment_of_Min_Amount\", \"Total_EMI_per_month\", \"Amount_invested_monthly\", \"Payment_Behaviour\", \"Monthly_Balance\"}, {\"Name\", \"Age\", \"Occupation\", \"Annual_Income\", \"Monthly_Inhand_Salary\", \"Num_Bank_Accounts\", \"Num_Credit_Card.1\", \"Interest_Rate.1\", \"Num_of_Loan\", \"Delay_from_due_date\", \"Num_of_Delayed_Payment\", \"Changed_Credit_Limit\", \"Num_Credit_Inquiries\", \"Credit_Mix.1\", \"Credit_Utilization_Ratio\", \"Credit_History_Age\", \"Payment_of_Min_Amount\", \"Total_EMI_per_month\", \"Amount_invested_monthly\", \"Payment_Behaviour\", \"Monthly_Balance\"}),",
+                "    #\"Podzielono kolumnę według ogranicznika\" = Table.SplitColumn(#\"Expanded Customer\", \"Decision\", Splitter.SplitTextByEachDelimiter({\",\"}, QuoteStyle.Csv, false), {\"Decision.1\", \"Decision.2\"}),",
+                "    #\"Zmieniono typ\" = Table.TransformColumnTypes(#\"Podzielono kolumnę według ogranicznika\",{{\"Decision.1\", type text}, {\"Decision.2\", type text}}),",
+                "    #\"Zmieniono nazwy kolumn\" = Table.RenameColumns(#\"Zmieniono typ\",{{\"Decision.1\", \"Score\"}, {\"Decision.2\", \"Procent\"}}),",
+                "    #\"Dodano kolumnę warunkową\" = Table.AddColumn(#\"Zmieniono nazwy kolumn\", \"Decyzja\", each if [Score] = \"Poor\" then 0 else 1),",
+                "    #\"Dodano kolumnę warunkową1\" = Table.AddColumn(#\"Dodano kolumnę warunkową\", \"Niestandardowe\", each if [Decyzja] = 1 then \"Otrzymany\" else \"Odrzucony\"),",
+                "    #\"Zmieniono nazwy kolumn1\" = Table.RenameColumns(#\"Dodano kolumnę warunkową1\",{{\"Niestandardowe\", \"Decyzja_tekst\"}}),",
+                "    #\"Zmieniono typ1\" = Table.TransformColumnTypes(#\"Zmieniono nazwy kolumn1\",{{\"Decyzja_tekst\", type text}, {\"Decyzja\", Int64.Type}, {\"proc_time\", type datetime}}),",
+                "    #\"Zduplikowano kolumnę\" = Table.DuplicateColumn(#\"Zmieniono typ1\", \"Procent\", \"Procent — kopia\"),",
+                "    #\"Zmieniono typ2\" = Table.TransformColumnTypes(#\"Zduplikowano kolumnę\",{{\"Procent — kopia\", type number}}),",
+                "    #\"Zamienione błędy\" = Table.ReplaceErrorValues(#\"Zmieniono typ2\", {{\"Procent — kopia\", null}}),",
+                "    #\"Zduplikowano kolumnę1\" = Table.DuplicateColumn(#\"Zamienione błędy\", \"Procent\", \"Procent — kopia.1\"),",
+                "    #\"Dodano kolumnę niestandardową\" = Table.AddColumn(#\"Zduplikowano kolumnę1\", \"Niestandardowe\", each if [#\"Procent — kopia\"] = null then [#\"Procent — kopia.1\"] else null)",
+                "in",
+                "    #\"Dodano kolumnę niestandardową\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_68486787-7f6e-4c04-a870-d3c15e9a02a8",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "3953ad90-2417-4e0e-afc4-a78c16db8853",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "b644e2b1-84cd-4c3a-9f49-dcd6d4928068",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "a7e767c7-46f9-4960-85e2-18730ae1bc5f",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "09e0e972-ab61-41e0-a779-c8419d493c2f",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "1f90bd5e-3c75-4402-ba15-84af51850911",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "7b3b3509-e720-4533-b93d-764e4ec488b3",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "3184c5dd-928e-4767-adab-6a610ca22442",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "f3a4bb93-df7d-4b33-a767-ef8904972c2c",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "571ed2c4-f881-4c47-8741-8c3bf4874ed5",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "8170e164-a255-401a-bfbb-7353bef2c2b8",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "6899b23a-a45b-44a4-9622-ef010ebaa3b5",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "ee39f027-f7bc-4bac-bd28-8d45db7e479b"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "e86bdd17-8462-41b2-9dff-95e5fd54cc39",
+        "partitions": [
+          {
+            "name": "LocalDateTable_68486787-7f6e-4c04-a870-d3c15e9a02a8-bdb98129-599f-46f8-bf59-b951ffc427d5",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Decision'[proc_time])), 1, 1), Date(Year(MAX('Decision'[proc_time])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "Customer",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1046fbca-e221-434b-9bcf-873e14e04f53",
+            "sourceColumn": "ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Customer_ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "25b8c1e5-b459-4cec-a81a-874998047458",
+            "sourceColumn": "Customer_ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "927ea134-8fe4-430c-aa40-7e1a19221de5",
+            "sourceColumn": "Month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "85ad7c56-7e8a-4f67-8659-f2aa5b90cdd2",
+            "sourceColumn": "Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bd4cc13e-7832-4bff-ab07-0e02642c6fb8",
+            "sourceColumn": "Age",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SSN",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ad8796bc-8675-4b5d-8dc1-240b81e1a3b1",
+            "sourceColumn": "SSN",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Occupation",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "84de75cd-3320-47a4-8a1b-4de621310b2f",
+            "sourceColumn": "Occupation",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Annual_Income",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7399e587-403f-42d1-a5d3-17fee6c6cde7",
+            "sourceColumn": "Annual_Income",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Monthly_Inhand_Salary",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4f5acbd4-7904-403b-a719-09b46221db52",
+            "sourceColumn": "Monthly_Inhand_Salary",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Num_Bank_Accounts",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a8ccb569-76c2-4695-8fb4-4e6692625429",
+            "sourceColumn": "Num_Bank_Accounts",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Num_Credit_Card",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "390641c0-6b6f-4d59-9ee0-7f0bd5175030",
+            "sourceColumn": "Num_Credit_Card",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Interest_Rate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c86b92e1-2230-4c2e-8ce7-d44ec229d419",
+            "sourceColumn": "Interest_Rate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Num_of_Loan",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6f79a46b-2b59-4640-85c9-bea1e8a7d580",
+            "sourceColumn": "Num_of_Loan",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Type_of_Loan",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5b7db702-c350-4139-b04a-27cba5608f18",
+            "sourceColumn": "Type_of_Loan",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Delay_from_due_date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "99712fd3-f68c-4932-ae9e-3aefa03be870",
+            "sourceColumn": "Delay_from_due_date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Num_of_Delayed_Payment",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5670314f-1a68-4f9d-99b4-37dfddb7c3d9",
+            "sourceColumn": "Num_of_Delayed_Payment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Changed_Credit_Limit",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "174503c1-47c9-4634-918b-68c69419a7d1",
+            "sourceColumn": "Changed_Credit_Limit",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Num_Credit_Inquiries",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "ab6ef1a2-3e75-43b6-bca1-e65bd9c81194",
+            "sourceColumn": "Num_Credit_Inquiries",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Credit_Mix",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "63c2e4ef-78ec-4bdc-8152-52dbb5dd7a6f",
+            "sourceColumn": "Credit_Mix",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Outstanding_Debt",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e1eb1bf5-5ae6-49ad-b864-fe8a064cb909",
+            "sourceColumn": "Outstanding_Debt",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Credit_Utilization_Ratio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "ddeaa790-1224-43c1-9e16-d180b29f1011",
+            "sourceColumn": "Credit_Utilization_Ratio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Credit_History_Age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1c332669-ad41-4eea-b41c-94f9fb5dfc78",
+            "sourceColumn": "Credit_History_Age",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Payment_of_Min_Amount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d0097ee1-bb38-4a01-adba-2e8b0ceb0430",
+            "sourceColumn": "Payment_of_Min_Amount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Total_EMI_per_month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c2545f76-766b-44fa-b7e3-ff61983553c2",
+            "sourceColumn": "Total_EMI_per_month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Amount_invested_monthly",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2fb22fbc-e6eb-4123-9927-e2fb0098e4e5",
+            "sourceColumn": "Amount_invested_monthly",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Payment_Behaviour",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "85a201be-797e-4939-8b03-54e12ab3610d",
+            "sourceColumn": "Payment_Behaviour",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Monthly_Balance",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9c0a1034-cbcd-4195-9f31-8e9003053f20",
+            "sourceColumn": "Monthly_Balance",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Credit_Score",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c4ba0175-77be-4f28-a559-f40d319b10dc",
+            "sourceColumn": "Credit_Score",
+            "summarizeBy": "none"
+          }
+        ],
+        "excludeFromModelRefresh": true,
+        "lineageTag": "ae907299-2b9d-4821-a8ca-b7e5825748b4",
+        "partitions": [
+          {
+            "name": "Customer-11517f9d-c411-4a82-adda-b5106b8208c2",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"rta-project-server.database.windows.net\", \"rta-project\", [Query=\"SELECT *#(lf)FROM Customer\"])",
+                "in",
+                "    Source"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
